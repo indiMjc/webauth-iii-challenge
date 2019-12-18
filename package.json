@@ -5,6 +5,8 @@
   "repository": "https://github.com/indiMjc/webauth-iii-challenge.git",
   "author": "indiMjc <45151346+indiMjc@users.noreply.github.com>",
   "license": "MIT",
+  "server": "nodemon index.js",
+  "start": "node index.js",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
