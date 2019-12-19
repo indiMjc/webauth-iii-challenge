@@ -17,6 +17,7 @@ const Login = () => {
       .post(`http://localhost:3030/auth/login`, user)
       .then(res => {
         console.log(res);
+        localStorage.setItem('token', res.data.token);
       })
       .catch(err => {
         console.log(err);

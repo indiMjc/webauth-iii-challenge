@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Login from './components/Login';
 import Register from './components/Register';
 import { Route, Link } from 'react-router-dom';
 
 function App() {
-  const [registered, setRegistered] = useState(true);
-
   return (
     <div className='App'>
       <br />
